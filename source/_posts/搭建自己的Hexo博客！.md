@@ -108,7 +108,5 @@ git push -u origin master
 
 ![](https://i.loli.net/2021/01/24/gFcPkMqVudmWo2p.png)
 
-# 完结
 
-接下来摸🐟了
 
