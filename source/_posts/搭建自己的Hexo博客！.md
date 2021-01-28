@@ -20,7 +20,7 @@ date: 2021-01-24 19:26:41
 - [Node.js](http://nodejs.org/)
 - [Git](http://git-scm.com/)
 
-如果你已经安装好了，就可以直接前往[安装 Hexo](#安装%20Hexo)了。
+如果你已经安装好了，就可以直接前往[安装 Hexo](#安装-Hexo)了。
 
 ## 安装 Git
 
