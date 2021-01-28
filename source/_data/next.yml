@@ -638,7 +638,7 @@ gitalk:
   repo: gittalk
   client_id: 2216157e7b51ad71e26d
   client_secret: 93df880ad497bdbac6ea00861ddc424a307b6eff
-  admin_user: in21
+  admin_user: ['in21','Insouciant21']
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
