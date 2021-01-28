@@ -45,7 +45,7 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -111,8 +111,8 @@ suka_theme:
     path: search.json
     field: post # Page | Post | All. Default post
   prism:
-    enable: false
-    line_number: true
+    enable: true
+    line_number: false
     theme: default
 
 # Abbrlink settings

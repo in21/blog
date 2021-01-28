@@ -1,7 +1,8 @@
 ---
 title: 搭建自己的Hexo博客！
-date: 2021-01-24 19:26:41
 tags: 技术向
+abbrlink: 1439757957
+date: 2021-01-24 19:26:41
 ---
 
 # 说明
@@ -37,7 +38,7 @@ tags: 技术向
 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
 安装只需要输入这一行命令：
-``` bash
+```bash
 npm install -g hexo-cli
 # or
 yarn global add hexo-cli
@@ -47,7 +48,7 @@ yarn global add hexo-cli
 # 建站
 
 准备好一个放置博客文件的文件夹，然后执行以下命令：
-``` bash
+```bash
 hexo init <folder>
 cd <folder>
 npm install # or yarn 
@@ -74,7 +75,7 @@ hexo s
 
 将本地博客文件推送到仓库。
 
-``` bash
+```bash
 git init 
 git add .
 git commit -m "first commit"
