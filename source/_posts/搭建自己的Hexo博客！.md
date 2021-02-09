@@ -3,6 +3,8 @@ title: 搭建自己的Hexo博客！
 tags: 技术向
 abbrlink: 1439757957
 date: 2021-01-24 19:26:41
+categories:
+  - 教程
 ---
 
 # 说明

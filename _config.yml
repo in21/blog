@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: volantis
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -124,23 +124,31 @@ abbrlink:
 sitemap: 
   path: sitemap.xml
 
+# Icon
+favicon: /images/favicon.ico
+
+# Categories
+category_generator:
+  per_page: 10
+  order_by: -date
+
 # Waline
 # For more information: https://waline.js.org, https://github.com/lizheming/waline
-waline:
-  enable: true
-  serverURL: https://waline.moeblue.top # Waline server address url
-  avatar: wavatar # Gravatar style
-  avatarCDN: https://sdn.geekzu.org/avatar/
-  meta: [nick, mail, link] # Custom comment header
-  requiredFields: [nick, mail] # Set required fields: [nick] | [nick, mail]
-  pageSize: 10 # Pagination size
-  # Warning: Do not enable both `waline.visitor` and `leancloud_visitors`.
-  visitor: true # Article reading statistic
-  comment_count: true  # If false, comment count will only be displayed in post page, not in home page
-  lang: zh-CN # Language, available values: en, zh-CN
-  placeholder: 填写昵称、邮箱即可留下你的观点与想法，邮件通知新回复。 # Comment box placeholder
-  langMode: 
-    admin: 可爱的博主
-    nick: 昵称（必填）
-    mail: 邮箱（必填）
-    link: 网址（http:// 选填）
+#waline:
+##  enable: true
+#  serverURL: https://waline.moeblue.top # Waline server address url
+#  avatar: wavatar # Gravatar style
+#  avatarCDN: https://sdn.geekzu.org/avatar/
+#  meta: [nick, mail, link] # Custom comment header
+#  requiredFields: [nick, mail] # Set required fields: [nick] | [nick, mail]
+#  pageSize: 10 # Pagination size
+#  # Warning: Do not enable both `waline.visitor` and `leancloud_visitors`.
+#  visitor: true # Article reading statistic
+#  comment_count: true  # If false, comment count will only be displayed in post page, not in home page
+#  lang: zh-CN # Language, available values: en, zh-CN
+#  placeholder: 填写昵称、邮箱即可留下你的观点与想法，邮件通知新回复。 # Comment box placeholder
+#  langMode: 
+#    admin: 可爱的博主
+#    nick: 昵称（必填）
+#    mail: 邮箱（必填）
+#    link: 网址（http:// 选填）
