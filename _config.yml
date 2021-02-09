@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://blog.insouciant21.ml
+url: https://blog.moeblue.top
 root: /
 permalink: posts/:abbrlink/
 permalink_defaults:
@@ -128,7 +128,7 @@ sitemap:
 # For more information: https://waline.js.org, https://github.com/lizheming/waline
 waline:
   enable: true
-  serverURL: https://waline.insouciant21.ml # Waline server address url
+  serverURL: https://waline.moeblue.top # Waline server address url
   avatar: wavatar # Gravatar style
   avatarCDN: https://sdn.geekzu.org/avatar/
   meta: [nick, mail, link] # Custom comment header
