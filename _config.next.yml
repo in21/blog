@@ -278,7 +278,7 @@ follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -670,13 +670,13 @@ add_this_id:
 
 # Google Analytics
 google_analytics:
-  tracking_id: G-JMJH5D59YM
+  tracking_id: G-EPYQQ48K96
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
 
 # Baidu Analytics
-baidu_analytics: 6202c6e5816418b0c21704ccd6a6f724
+baidu_analytics: c823e74567e1d7fb7e9cf598c3d9cb0b
 
 # Growingio Analytics
 growingio_analytics: # <project_id>
