@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Insouciant21's blog
+title: Insouciant21の博客
 subtitle: ''
 description: ''
 keywords:
@@ -131,6 +131,9 @@ favicon: /images/favicon.ico
 category_generator:
   per_page: 10
   order_by: -date
+
+# Analytics
+baidu_analytics_key: c823e74567e1d7fb7e9cf598c3d9cb0b
 
 # Waline
 # For more information: https://waline.js.org, https://github.com/lizheming/waline
