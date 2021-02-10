@@ -2,7 +2,7 @@
 # use_cdn: /source/js/* 中的JS文件(JS Only)使用jsdelivr的min版本加速
 # 默认使用 https://cdn.jsdelivr.net/npm/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/*.min.js 的CDN压缩版本(min.js)，注意版本号对应关系！！可以通过修改以下配置项覆盖
 # 开发者注意 use_cdn 设置为 false
-use_cdn: true
+use_cdn: false
 info:
   theme_name: Volantis # This is theme's name.
   theme_version: '4.3.1' # This is theme's version.
@@ -18,7 +18,7 @@ info:
 ############################### Navigation Bar ############################### > start
 # 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
 navbar:
-  visiable: auto # always, auto
+  visiable: always # always, auto
   logo: # choose [img] or [icon + title]
     img: #https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
     icon:
@@ -48,8 +48,8 @@ navbar:
 
 ############################### Cover ############################### > start
 cover:
-  height_scheme: full # full, half
-  layout_scheme: search # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  height_scheme: half # full, half
+  layout_scheme: featured # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
   display:
     home: true
     archive: false
@@ -62,13 +62,17 @@ cover:
   subtitle: ''
   search:  # search bar placeholder
   features:
-    - name: 归档
+    - name: 博文
       icon: #
       img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      url: /
+    - name: 归档
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
       url: /archives/
     - name: 友链
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f91d.svg
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f49e.svg
       url: /friends/
 ############################### Cover ############################### > end
 
